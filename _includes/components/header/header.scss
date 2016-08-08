@@ -1,0 +1,29 @@
+.header {
+    background: $colour-lightgrey;
+    font-family: $font-headings;
+    font-size: $font-size-large;
+
+    @media (min-width: $breakpoint-narrow) {
+        background: $colour-green;
+    }
+
+    @media (min-width: $breakpoint-wide) {
+        background: $colour-darkgrey;
+    }
+}
+
+.header__title {
+
+}
+
+.header__nav {
+
+}
+
+.header__item {
+
+}
+
+.header__link {
+
+}

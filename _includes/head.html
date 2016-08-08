@@ -1,1 +1,7 @@
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{% if page.section %}{{ page.section }} | {% endif %}{{ site.sitetitle }}</title>
+    <meta name="description" content="{%if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.sitedescription }}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>

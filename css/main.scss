@@ -1,5 +1,18 @@
 ---
 #
 ---
+@import 'css/normalize';
+@import 'css/vars/fonts';
+@import 'css/vars/colours';
+@import 'css/vars/breakpoints';
 
-@import 'footer/footer'
+//fonts
+@import 'css/fonts/atlasgrotesk-regular';
+
+
+// Components
+
+@import 'components/footer/footer';
+@import 'components/header/header';
+@import 'components/project-list/project-list';
+@import 'components/project-detail/project-detail';

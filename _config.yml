@@ -3,3 +3,8 @@ sass:
 
 # Build settings
 markdown: kramdown
+
+# custom data - site details
+sitehost:
+sitetitle: Daniel Hutchinson
+sitedescription: Online portfolio for
