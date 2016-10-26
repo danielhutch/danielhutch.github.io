@@ -4,6 +4,7 @@
     align-items: center;
     border: 10px solid pink;
 
+
 }
 
 .project-detail-main-image {
@@ -13,6 +14,7 @@
     background-size: cover;
     background-position: center;
     background-image: url('/assets/images/project-one-main.jpg');
+    margin-bottom: $space-large;
 
     }
 
@@ -63,13 +65,45 @@
     }
 }
 
-.project-detail__body {
+.project-detail h1{
+    font-family: $font-headings;
+    font-size: $font-size-large;
+    line-height: $font-line-height-medium;
     color: $colour-darkgrey;
+    margin-top: 0;
+    margin-bottom: $space-small;
+}
+
+.project-detail__overview{
+    font-family: $font-headings;
+    font-size: $font-size-large;
+    line-height: $font-line-height-medium;
+    color: $colour-darkgrey;
+    margin-top: 0;
+    margin-bottom: $space-large;
+}
+
+.project-detail__h2 {
+    font-family: $font-headings;
+    font-size: $font-size-large;
+    line-height: $font-line-height-small;
+    color: $colour-darkgrey;
+    margin-top: 0;
+    margin-bottom: $space-small;
+}
+
+
+.project-detail__body {
+    font-family: $font-body;
+    font-size: $font-size-medium;
+    line-height: $font-line-height-medium;
+    color: $colour-darkgrey;
+    margin-top: 0;
+    margin-bottom: $space-large;
 
 
     @media (min-width: $breakpoint-narrow) {
-        font-size: $font-size-medium;
-        line-height: $line-height-medium;
+
     }
 
     @media (min-width: $breakpoint-wide) {
