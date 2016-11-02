@@ -3,6 +3,7 @@ layout: project
 title:  "Project three"
 date:   2016-05-17 15:13:33 +0100
 thumb: project-three-thumb.jpg
+main: project-three-main.jpg
 overview: Overview lorem ipsum dolor sit
 ---
 Hello this is a description
