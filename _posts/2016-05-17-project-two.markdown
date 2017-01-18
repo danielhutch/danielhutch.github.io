@@ -5,8 +5,8 @@ date:   2016-05-17 15:13:33 +0100
 thumb: project-two-thumb.jpg
 main: project-two-main.jpg
 overview: Overview lorem ipsum dolor sit
+excerpt: Excerpt copy.
 ---
-Hello this is a description
 
 ![2-39_1](/assets/images/2-39_1.png)
 
