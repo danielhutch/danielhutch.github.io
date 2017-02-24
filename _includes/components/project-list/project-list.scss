@@ -1,23 +1,64 @@
 .project-list {
+    padding: $space-small;
+
+    @media (min-width: $breakpoint-narrow) {
+        padding: $space-large;
+
+
+    }
+
+    @media (min-width: $breakpoint-wide) {
+        max-width: $width-xlarge;
+
+    }
 
 }
 
 .project-list__posts {
+    padding: 0;
+    display:flex;
 
 }
 
 .project-list__post {
+    list-style-type: none;
+    flex: 1;
 
+    @media (min-width: $breakpoint-narrow) {
+
+    }
+
+    @media (min-width: $breakpoint-wide) {
+
+    }
 }
 
 .project-list__post-link {
-
+    text-decoration: none;
+    color: $colour-darkgrey;
 }
 
+a.project-list__post-link:hover {
+        color: $colour-green;
+        text-decoration: underline;
+}
+
+
 .project-list__title {
+    font-size: $font-size-medium;
+
+
+    @media (min-width: $breakpoint-narrow) {
+
+    }
+
+    @media (min-width: $breakpoint-wide) {
+
+    }
 
 }
 
 .project-list__image {
+    width: 100%
 
 }
