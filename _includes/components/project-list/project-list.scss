@@ -16,19 +16,30 @@
 
 .project-list__posts {
     padding: 0;
-    display:flex;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
 .project-list__post {
     list-style-type: none;
-    flex: 1;
+
+  /*  flex-basis: 350px;
+    flex-grow: 1;
+    flex-shrink:1;
+*/
+
+    flex: 1 1 4500px;
 
     @media (min-width: $breakpoint-narrow) {
+
+    flex-basis: 400px;
 
     }
 
     @media (min-width: $breakpoint-wide) {
+
+    flex-basis: 500px;
 
     }
 }
