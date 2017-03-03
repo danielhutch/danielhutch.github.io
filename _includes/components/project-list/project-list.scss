@@ -18,6 +18,8 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    border: 10px solid pink;
+
 
 }
 
@@ -50,8 +52,8 @@
 }
 
 a.project-list__post-link:hover {
-        color: $colour-green;
-        text-decoration: underline;
+    color: $colour-green;
+    text-decoration: underline;
 }
 
 

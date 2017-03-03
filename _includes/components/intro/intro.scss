@@ -1,0 +1,31 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid pink;
+    min-height: 400px;
+
+    padding: $space-small;
+
+
+
+    @media (min-width: $breakpoint-narrow) {
+        max-width: $width-medium;
+
+        padding: $space-large;
+    }
+
+    @media (min-width: $breakpoint-wide) {
+
+    }
+
+
+}
+
+.intro-text {
+    font-family: $font-headings;
+    font-size: $font-size-large;
+    line-height: $font-line-height-medium;
+
+    padding-top: $space-large;
+
+}
