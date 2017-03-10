@@ -1,5 +1,10 @@
 .project-list {
+    border: 10px solid pink;
     padding: $space-small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 
     @media (min-width: $breakpoint-narrow) {
         padding: $space-large;
@@ -8,7 +13,7 @@
     }
 
     @media (min-width: $breakpoint-wide) {
-        max-width: $width-xlarge;
+
 
     }
 
@@ -19,6 +24,11 @@
     display: flex;
     flex-wrap: wrap;
     border: 10px solid pink;
+
+    margin-left:  -$space-small;
+    margin-right: -$space-small;
+
+    max-width: $width-xlarge;
 
 
 }
@@ -32,6 +42,9 @@
 */
 
     flex: 1 1 4500px;
+    margin-left: $space-small;
+    margin-right: $space-small;
+    margin-bottom:  $space-large;
 
     @media (min-width: $breakpoint-narrow) {
 
