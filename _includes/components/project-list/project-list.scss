@@ -1,5 +1,5 @@
 .project-list {
-    border: 10px solid pink;
+    border: $border-test;
     padding: $space-small;
     display: flex;
     flex-direction: column;
@@ -23,21 +23,15 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    border: 10px solid pink;
-
-
+    border: $border-test;
     width: 100%;
 
     @media (min-width: $breakpoint-narrow) {
-
-    width: $width-large;
-
+        width: $width-large;
     }
 
     @media (min-width: $breakpoint-wide) {
-
-    width: 77em;
-
+        width: $width-xlarge;
     }
 
 
