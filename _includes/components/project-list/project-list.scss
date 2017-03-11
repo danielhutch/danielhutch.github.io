@@ -25,10 +25,21 @@
     flex-wrap: wrap;
     border: 10px solid pink;
 
-    margin-left:  -$space-small;
-    margin-right: -$space-small;
 
-    max-width: $width-xlarge;
+    width: 100%;
+
+    @media (min-width: $breakpoint-narrow) {
+
+    width: $width-large;
+
+    }
+
+    @media (min-width: $breakpoint-wide) {
+
+    width: 77em;
+
+    }
+
 
 
 }
@@ -48,13 +59,13 @@
 
     @media (min-width: $breakpoint-narrow) {
 
-    flex-basis: 400px;
+    flex-basis: 300px;
 
     }
 
     @media (min-width: $breakpoint-wide) {
 
-    flex-basis: 500px;
+    flex-basis: 300px;
 
     }
 }
