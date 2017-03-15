@@ -1,5 +1,5 @@
 .project-list {
-    border: 10px solid pink;
+    border: $border-test;
     padding: $space-small;
     display: flex;
     flex-direction: column;
@@ -23,12 +23,17 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    border: 10px solid pink;
+    border: $border-test;
+    width: 100%;
 
-    margin-left:  -$space-small;
-    margin-right: -$space-small;
+    @media (min-width: $breakpoint-narrow) {
+        width: $width-large;
+    }
 
-    max-width: $width-xlarge;
+    @media (min-width: $breakpoint-wide) {
+        width: $width-xlarge;
+    }
+
 
 
 }
@@ -48,13 +53,13 @@
 
     @media (min-width: $breakpoint-narrow) {
 
-    flex-basis: 400px;
+    flex-basis: 300px;
 
     }
 
     @media (min-width: $breakpoint-wide) {
 
-    flex-basis: 500px;
+    flex-basis: 300px;
 
     }
 }

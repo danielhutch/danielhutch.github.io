@@ -1,20 +1,26 @@
 .intro {
+    border: $border-test;
     display: flex;
     flex-direction: column;
-    border: 10px solid pink;
-    min-height: 400px;
+    align-items: center;
+    background-color: $colour-lightgrey;
+}
 
-    padding: $space-small;
 
+
+.intro-wrapper {
+    border: $border-test;
+    min-height: 300px;
 
 
     @media (min-width: $breakpoint-narrow) {
-        max-width: $width-medium;
+        width: $width-large;
+        min-height: 400px;
 
-        padding: $space-large;
     }
 
     @media (min-width: $breakpoint-wide) {
+        width: $width-xlarge;
 
     }
 
@@ -25,7 +31,21 @@
     font-family: $font-headings;
     font-size: $font-size-large;
     line-height: $font-line-height-medium;
+    padding-left: 16px; /* If space-small is used here it doesn’t render as 1em/16px */
+    padding-right: 16px; /* If space-small is used here it doesn’t render as 1em/16px */
+    padding-bottom: $space-small;
 
-    padding-top: $space-large;
+    @media (min-width: $breakpoint-narrow) {
+    font-size: $font-size-xlarge;
+    line-height: $font-line-height-medium;
+    padding-top: $space-medium;
+
+
+    }
+
+    @media (min-width: $breakpoint-wide) {
+        width: $width-small;
+
+    }
 
 }
