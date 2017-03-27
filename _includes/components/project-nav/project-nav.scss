@@ -26,7 +26,7 @@
 .project-nav__previous {
     padding-left: $space-small;
     color: $colour-white;
-    width: 50%;
+    width: 100%;
 
     @media (min-width: $breakpoint-narrow) {
 
@@ -45,7 +45,9 @@
     padding-right: $space-small;
     color: $colour-white;
     text-align: right;
-    width: 50%;
+    width: 100%;
+
+
 
     @media (min-width: $breakpoint-narrow) {
 
