@@ -2,50 +2,104 @@
     border: $border-test;
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: $colour-lightgrey;
 }
 
 
 
-.intro-wrapper {
+.intro__wrapper {
+    min-height: 380px;
+    margin: auto;
     border: $border-test;
-    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+
 
 
     @media (min-width: $breakpoint-narrow) {
-        width: $width-large;
-        min-height: 400px;
 
     }
 
     @media (min-width: $breakpoint-wide) {
-        width: $width-xlarge;
+        width: 1170px;
+
+
 
     }
 
 
 }
 
-.intro-text {
+.intro__heading {
     font-family: $font-headings;
-    font-size: $font-size-large;
-    line-height: $font-line-height-medium;
-    padding-left: 16px; /* If space-small is used here it doesn’t render as 1em/16px */
-    padding-right: 16px; /* If space-small is used here it doesn’t render as 1em/16px */
-    padding-bottom: $space-small;
+    font-weight:  700;
+    font-stretch: normal;
+    font-size: $font-size-xlarge;
+    line-height: $font-line-height-small;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 
     @media (min-width: $breakpoint-narrow) {
-    font-size: $font-size-xlarge;
-    line-height: $font-line-height-medium;
-    padding-top: $space-medium;
-
-
+        font-size: $font-size-xlarge;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     @media (min-width: $breakpoint-wide) {
-        width: $width-small;
-
+        font-size: $font-size-xxlarge;
+        max-width: 770px;
     }
 
+}
+
+.intro__line {
+    background-color: $colour-darkgrey;
+    width: 160px;
+    height: 4px;
+    margin-left: 32px;
+    margin-right: 32px;
+
+    @media (min-width: $breakpoint-narrow) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    @media (min-width: $breakpoint-wide) {
+
+
+    }
+}
+
+
+.intro__text {
+    font-family: $font-body;
+    font-size: $font-size-medium;
+    line-height: $font-line-height-medium;
+    color: $colour-darkgrey;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 32px;
+    margin-bottom: $space-large;
+
+    @media (min-width: $breakpoint-narrow) {
+        font-size: $font-size-large;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    @media (min-width: $breakpoint-wide) {
+        max-width: 770px;
+    }
+
+}
+
+.intro__link {
+    color: $colour-darkgrey;
+}
+
+a.intro__link:hover {
+    color: $colour-green;
+    text-decoration: underline;
 }
