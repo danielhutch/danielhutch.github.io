@@ -8,20 +8,19 @@
 
 
 .intro__wrapper {
-    min-height: 380px;
     margin: auto;
     border: $border-test;
     display: flex;
     flex-direction: column;
 
-
-
     @media (min-width: $breakpoint-narrow) {
-
+        width: 770px;
     }
 
     @media (min-width: $breakpoint-wide) {
+        min-height: 380px;
         width: 1170px;
+        padding-top: 32px;
 
 
 
@@ -38,17 +37,19 @@
     line-height: $font-line-height-small;
     margin-left: 32px;
     margin-right: 32px;
-    margin-top: 32px;
+    margin-top: 0px;
     margin-bottom: 32px;
 
     @media (min-width: $breakpoint-narrow) {
         font-size: $font-size-xlarge;
         margin-left: 0px;
         margin-right: 0px;
+        max-width: 568px;
     }
 
     @media (min-width: $breakpoint-wide) {
         font-size: $font-size-xxlarge;
+
         max-width: 770px;
     }
 
@@ -84,12 +85,14 @@
     margin-bottom: $space-large;
 
     @media (min-width: $breakpoint-narrow) {
-        font-size: $font-size-large;
+
         margin-left: 0px;
         margin-right: 0px;
+        max-width: 568px;
     }
 
     @media (min-width: $breakpoint-wide) {
+        font-size: $font-size-large;
         max-width: 770px;
     }
 
