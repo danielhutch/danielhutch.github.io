@@ -74,7 +74,19 @@ a.project-list__post-link:hover {
     text-decoration: underline;
 }
 
+.project-list__client {
+    font-size: $font-size-medium;
 
+
+    @media (min-width: $breakpoint-narrow) {
+
+    }
+
+    @media (min-width: $breakpoint-wide) {
+
+    }
+
+}
 .project-list__title {
     font-size: $font-size-medium;
 

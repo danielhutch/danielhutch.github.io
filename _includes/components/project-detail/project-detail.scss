@@ -7,6 +7,7 @@
 
 }
 
+
 .project-detail-main-image {
     width: 100%;
     height: 500px;
@@ -14,7 +15,7 @@
     background-size: cover;
     background-position: center;
     margin-bottom: $space-large;
-    }
+}
 
 .project-detail__intro{
     padding: $space-small;
@@ -64,14 +65,42 @@
     }
 }
 
-.project-detail h1{
+.project-detail__title {
+    font-family: $font-headings;
+    font-weight:  700;
+    font-stretch: normal;
+    font-size: $font-size-large;
+    line-height: $font-line-height-small;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+
+    @media (min-width: $breakpoint-narrow) {
+        font-size: $font-size-xlarge;
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 568px;
+    }
+
+    @media (min-width: $breakpoint-wide) {
+        font-size: $font-size-xxlarge;
+
+        max-width: 770px;
+    }
+
+}
+
+.project-detail__client {
     font-family: $font-body;
     font-size: $font-size-large;
-    line-height: $font-line-height-medium;
+    font-weight: normal;
+    line-height: $font-line-height-small;
     color: $colour-darkgrey;
     margin-top: 0;
     margin-bottom: $space-small;
 }
+
 
 .project-detail__overview{
     font-family: $font-body;
@@ -80,15 +109,6 @@
     color: $colour-darkgrey;
     margin-top: 0;
     margin-bottom: $space-large;
-}
-
-.project-detail__h2 {
-    font-family: $font-body;
-    font-size: $font-size-large;
-    line-height: $font-line-height-small;
-    color: $colour-darkgrey;
-    margin-top: 0;
-    margin-bottom: $space-small;
 }
 
 
