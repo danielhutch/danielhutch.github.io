@@ -4,12 +4,12 @@
         <li class="project-list__post">
             <a class="project-list__post-link" href="{{ post.url | prepend: site.baseurl }}">
                 <img class="project-list__image" src="/assets/images/{{post.thumb}}">
-                 <span class="project-list__client">
+                 <div class="project-list__client">
                     {{ post.client }}
-                </span>
-                <span class="project-list__title">
+                </div>
+                <div class="project-list__title">
                     {{ post.title }}
-                </span>
+                </div>
             </a>
         </li>
         {% endfor %}

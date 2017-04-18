@@ -74,12 +74,24 @@ a.project-list__post-link:hover {
     text-decoration: underline;
 }
 
+.project-list__image {
+    width: 100%;
+
+    @media (min-width: $breakpoint-narrow) {
+        margin-bottom: 16px;
+    }
+
+    @media (min-width: $breakpoint-wide) {
+
+    }
+
+}
 .project-list__client {
     font-size: $font-size-medium;
 
 
     @media (min-width: $breakpoint-narrow) {
-
+        margin-bottom: 4px;
     }
 
     @media (min-width: $breakpoint-wide) {
@@ -89,7 +101,7 @@ a.project-list__post-link:hover {
 }
 .project-list__title {
     font-size: $font-size-medium;
-
+    color: $colour-midgrey;
 
     @media (min-width: $breakpoint-narrow) {
 
@@ -101,7 +113,3 @@ a.project-list__post-link:hover {
 
 }
 
-.project-list__image {
-    width: 100%
-
-}
