@@ -69,47 +69,22 @@
     color: $colour-darkgrey;
 }
 
-a.project-list__post-link:hover {
+.project-list__image {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.project-list__client {
+    font-size: $font-size-medium;
+    margin-bottom: 4px;
+}
+
+.project-list__title {
+    font-size: $font-size-medium;
+    
+}
+
+.project-list__post-link:hover {
     color: $colour-green;
     text-decoration: underline;
 }
-
-.project-list__image {
-    width: 100%;
-
-    @media (min-width: $breakpoint-narrow) {
-        margin-bottom: 16px;
-    }
-
-    @media (min-width: $breakpoint-wide) {
-
-    }
-
-}
-.project-list__client {
-    font-size: $font-size-medium;
-
-
-    @media (min-width: $breakpoint-narrow) {
-        margin-bottom: 4px;
-    }
-
-    @media (min-width: $breakpoint-wide) {
-
-    }
-
-}
-.project-list__title {
-    font-size: $font-size-medium;
-    color: $colour-midgrey;
-
-    @media (min-width: $breakpoint-narrow) {
-
-    }
-
-    @media (min-width: $breakpoint-wide) {
-
-    }
-
-}
-
