@@ -123,7 +123,7 @@
         width: 1170px;
 
     }
-
+}
 
 .about__body-paragraph {
     font-family: $font-body;
@@ -153,11 +153,11 @@
     color: $colour-darkgrey;
 }
 
-.about__body-paragraph:hover {
-    color: $colour-green;
+.about__link {
+    color: $colour-darkgrey;
     text-decoration: underline;
 }
 
-
-
+.about__link:hover {
+    color: $colour-green;
 }
