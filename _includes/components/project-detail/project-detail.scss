@@ -131,4 +131,47 @@
 
 }
 
+.project-detail__unordered-list {
+    font-family: $font-body;
+    font-size: $font-size-medium;
+    line-height: $font-line-height-medium;
+    color: $colour-darkgrey;
+    margin-top: 0;
+    margin-bottom: $space-large;
 
+    list-style-type: none;
+
+
+    @media (min-width: $breakpoint-narrow) {
+
+    }
+
+    @media (min-width: $breakpoint-wide) {
+
+    }
+
+}
+
+.project-detail__list-item:before {
+    content: "–"; /* en dash here */
+    position: absolute;
+    margin-left: -1.1em;
+
+    @media (min-width: $breakpoint-narrow) {
+
+    }
+
+    @media (min-width: $breakpoint-wide) {
+
+    }
+
+}
+
+.project-detail__link {
+    color: $colour-darkgrey;
+    text-decoration: underline;
+}
+
+.project-detail__link:hover {
+    color: $colour-green;
+}
