@@ -1,18 +1,18 @@
 <div class="project-nav">
     <div class="project-nav__wrapper">
-        {% if page.previous.url %}
+        {% if page.next.url %}
             <div class="project-nav__previous">
                 <p>Previous</p>
-                <a class="project-nav__link" href="{{page.previous.url}}">
-                    {{page.previous.title}}
+                <a class="project-nav__link" href="{{page.next.url}}">
+                    {{page.next.title}}
                 </a>
             </div>
         {% endif %}
-        {% if page.next.url %}
+        {% if page.previous.url %}
             <div class="project-nav__next">
                 <p>Next</p>
-                <a class="project-nav__link" href="{{page.next.url}}">
-                    {{page.next.title}}
+                <a class="project-nav__link" href="{{page.previous.url}}">
+                    {{page.previous.title}}
                 </a>
             </div>
         {% endif %}
