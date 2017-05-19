@@ -78,18 +78,15 @@
     font-family: $font-headings;
     font-weight:  700;
     font-stretch: normal;
-    font-size: $font-size-large;
+    font-size: $font-size-xlarge;
     line-height: $font-line-height-small;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 32px;
 
     @media (min-width: $breakpoint-narrow) {
-        font-size: $font-size-xlarge;
-        margin-left: 0px;
-        margin-right: 0px;
-        max-width: 568px;
+    max-width: 568px;
     }
 
     @media (min-width: $breakpoint-wide) {
@@ -187,5 +184,8 @@
 
 .project-detail__heading-bold {
     font-family: $font-body;
-    font-weight:  bold;
+    font-size: $font-size-large;
+    line-height: $font-line-height-medium;
+    color: $colour-darkgrey;
+    font-weight: bold;
 }

@@ -143,7 +143,6 @@
     }
 
     @media (min-width: $breakpoint-wide) {
-        font-size: $font-size-large;
         max-width: 770px;
     }
 
@@ -151,6 +150,24 @@
 
 .about__body-paragraph {
     color: $colour-darkgrey;
+}
+
+.about__heading-bold {
+    font-family: $font-body;
+    font-size: $font-size-large;
+    line-height: $font-line-height-medium;
+    color: $colour-darkgrey;
+    font-weight: bold;
+    margin-left: 32px;
+    margin-right: 32px;
+
+    @media (min-width: $breakpoint-narrow) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    @media (min-width: $breakpoint-wide) {
+    }
 }
 
 .about__link {
