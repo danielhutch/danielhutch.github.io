@@ -24,7 +24,7 @@
     @media (min-width: $breakpoint-wide) {
         min-height: 320px;
         width: 1170px;
-        padding-top: 32px;
+        padding-top: $space-large;
     }
 
 
@@ -36,15 +36,15 @@
     font-stretch: normal;
     font-size: $font-size-xlarge;
     line-height: $font-line-height-small;
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-top: 0px;
-    margin-bottom: 32px;
+    margin-left: $space-large;
+    margin-right: $space-large;
+    margin-top: $space-none;
+    margin-bottom: $space-large;
 
     @media (min-width: $breakpoint-narrow) {
         font-size: $font-size-xlarge;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: $space-none;
+        margin-right: $space-none;
         max-width: 568px;
     }
 
@@ -60,12 +60,12 @@
     background-color: $colour-darkgrey;
     width: 160px;
     height: 4px;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: $space-large;
+    margin-right: $space-large;
 
     @media (min-width: $breakpoint-narrow) {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: $space-none;
+        margin-right: $space-none;
     }
 
     @media (min-width: $breakpoint-wide) {
@@ -80,15 +80,15 @@
     font-size: $font-size-medium;
     line-height: $font-line-height-medium;
     color: $colour-darkgrey;
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-top: 32px;
+    margin-left: $space-large;
+    margin-right: $space-large;
+    margin-top: $space-large;
     margin-bottom: $space-large;
 
     @media (min-width: $breakpoint-narrow) {
 
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: $space-none;
+        margin-right: $space-none;
         max-width: 568px;
     }
 
@@ -113,7 +113,7 @@
     border: $border-test;
     display: flex;
     flex-direction: column;
-    padding-top: 64px;
+    padding-top: $space-xxlarge;
 
     @media (min-width: $breakpoint-narrow) {
         width: 770px;
@@ -130,15 +130,15 @@
     font-size: $font-size-medium;
     line-height: $font-line-height-medium;
     color: $colour-darkgrey;
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-top: 0px;
+    margin-left: $space-large;
+    margin-right: $space-large;
+    margin-top: $space-none;
     margin-bottom: $space-large;
 
     @media (min-width: $breakpoint-narrow) {
 
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: $space-none;
+        margin-right: $space-none;
         max-width: 568px;
     }
 
@@ -158,12 +158,12 @@
     line-height: $font-line-height-medium;
     color: $colour-darkgrey;
     font-weight: bold;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: $space-large;
+    margin-right: $space-large;
 
     @media (min-width: $breakpoint-narrow) {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: $space-none;
+        margin-right: $space-none;
     }
 
     @media (min-width: $breakpoint-wide) {
