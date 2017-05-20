@@ -8,7 +8,7 @@
     align-items: center;
 
     @media (min-width: $breakpoint-narrow) {
-        height: 5em;    
+        height: 80px;    
     }
 
     @media (min-width: $breakpoint-wide) {
@@ -17,21 +17,21 @@
 }
 
 .footer__nav {
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
+    -webkit-margin-before: $space-none;
+    -webkit-margin-after: $space-none;
     list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left:0;
+    padding-left:$space-none;
     padding-right: $space-small;
     padding-top: $space-large;
     padding-bottom: $space-large;
 
     @media (min-width: $breakpoint-narrow) {
-        padding-right: 2em;
-        padding-top: 0;
-        padding-bottom: 0;
+        padding-right: $space-medium;
+        padding-top: $space-none;
+        padding-bottom: $space-none;
         flex-direction: row;
     }
 
@@ -41,12 +41,11 @@
 }
 
 .footer__item {
-    margin-left: $space-small;
+    margin-left: $space-large;
     margin-bottom: $space-small;
 
     @media (min-width: $breakpoint-narrow) {
-        margin-left: 2em;
-        margin-bottom: 0;
+        margin-bottom: $space-none;
     }
 
     @media (min-width: $breakpoint-wide) {
