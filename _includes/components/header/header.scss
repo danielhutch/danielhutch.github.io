@@ -8,7 +8,7 @@ body {
     font-family: $font-body;
     font-size: $font-size-medium;
     width: 100%;
-    height: 5em;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,16 +23,16 @@ body {
 }
 
 .header__title{
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
+    -webkit-margin-before: $space-none;
+    -webkit-margin-after: $space-none;
     display: flex;
     justify-content: flex-start;
-    padding-left: $space-small; /* Using $space-small here reders in browser at 20px */
+    padding-left: $space-large;
     color: $colour-darkgrey;
     line-height: $font-line-height-small;
 
     @media (min-width: $breakpoint-narrow) {
-        padding-left: 2em;
+
     }
 
     @media (min-width: $breakpoint-wide) {
@@ -41,16 +41,16 @@ body {
 }
 
 .header__nav {
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
+    -webkit-margin-before: $space-none;
+    -webkit-margin-after: $space-none;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    padding-left:0;
-    padding-right: $space-small;
+    padding-left: $space-none;
+    padding-right: $space-large;
 
     @media (min-width: $breakpoint-narrow) {
-        padding-right: 2em;
+        
     }
 
     @media (min-width: $breakpoint-wide) {
@@ -62,7 +62,7 @@ body {
     margin-left: $space-small;
 
     @media (min-width: $breakpoint-narrow) {
-        margin-left: 2em;
+        margin-left: $space-large;
     }
 
     @media (min-width: $breakpoint-wide) {
