@@ -51,6 +51,18 @@
     flex-direction: column;
     align-items: center;
     border: $border-test;
+    margin-bottom: $space-large;
+    
+    @media (min-width: $breakpoint-narrow) {
+        margin-bottom: $space-xxlarge;
+    }
+
+    @media (min-width: $breakpoint-wide) {
+
+
+    }
+
+
 
 }
 
